@@ -1,0 +1,95 @@
+1.find the output :
+int x,y,z;
+x=2;
+y=5;
+z= ++x * y-- ;
+cout<<x<<" "<<y<<" "<<z;
+ 
+
+2.how many relational operators are there in c++ ?
+a.2
+b.3
+c.7
+d.6//
+
+3.
+bool x=(true && true );
+cout<<x;
+1
+
+4. 
+bool y=(false && true);
+cout<<y;
+0
+
+5.
+bool z=(false && false);
+cout<<z;
+1
+
+6.
+bool a=(true || false);
+cout<<a;
+1
+
+7.
+bool b=(false || false);
+cout<<b;
+0
+
+8.
+bool c=(true && (!true));
+cout<<c;
+0
+
+9.
+bool d=(true && (!false));
+cout<<d;
+1
+
+10.
+int A = 10, B = 20, C = 0;
+
+    C = A++ + ++B * 10 + B++;
+    cout << A << "," << B << "," << C;
+    
+    
+11.
+Which of these operators increments an integer variable by one?
+--
+%%
+&&
+++
+
+12.
+Fill in the blank to get 1 outputted from this code:
+int a=10,b=12;
+a.int c= b-- + a++;//12+10=22
+b.int c= --b + ++a;//11+11=22
+c.int c= --b - a++;//11-10=1,
+d.int c= b-- - ++a;//12-11=1
+c,d
+
+13.
+True or False. This code will output 0
+cout<< 426 % 4 <<endl;
+false
+
+14.
+True or False. This code will output 1
+cout<< 51%10 <<endl;
+true
+
+15.
+ 
+Fill in the blank to get 3 outputted from this code:
+	
+int main() {
+cout<< 19 ____ 4 <<endl;
+}
+
+++ 
+- 
+*
+%
+%
